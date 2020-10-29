@@ -14,7 +14,7 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2e2c2caf;
-  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --bggradient: linear-gradient(to bottom, #16732f, #04d13c);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
@@ -78,7 +78,7 @@ header .row .col-md-5 img {
 }
 
 header {
-  background: #ff512f;
+  background: white;
   /* fallback for old browsers */
   background: var(--bggradient);
 }
@@ -105,6 +105,15 @@ header .container .col-md-7 p {
 .primary-btn {
   border-radius: 30px;
   font-weight: bold;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  left: 65%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /********** section 1 **************/
